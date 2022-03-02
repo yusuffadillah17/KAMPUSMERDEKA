@@ -1,6 +1,3 @@
-kampus merdeka
-kita disini sudah belajar
--HTML
--CSS
--JAVASCRIPT
-sekarang sedang beljar github
+Nama:Yusuf Fadillah
+Kelompok: 1A 
+Nim:0110219020
