@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TUGAS 6 JavaScript</title>
+</head>
+<body>
+    <form id="nilai">
+        <table><tr bgcolor="cyan"><th>Kalkulator ku</th></tr><br/>
+            <tr><td>
+       ANGKA 1 <input type="text" name="bagian1" onfocus="angka1()" value="" placeholder="Masukan Nilai Angka 1" />
+        <br /><br />
+       ANGKA 2 <input type="text" name="bagian2" onfocus="angka2()" value="" placeholder="Masukan Nilai Angka 2" /><br/><br/>
+       HASIL:   <input type="text" name="hasil" value="" disabled />
+        </tr></td>
+        <tr bgcolor="red"><th>
+
+        <input type="button" value="+" onclick="ditambah()">
+        <input type="button" value="-" onclick="dikurang()">    
+        <input type="button" value="x" onclick="dikali()">
+        <input type="button" value="/" onclick="dibagi()"> 
+        <input type="button" value="^" onclick="dipangkat()">
+        <input type="button" name="batal" value="Batal" onclick="dikosongin()" />
+         </th></tr></table>
+    </form>
+    <script src="tugas6.js"></script>
+</body>
+
+</html>
