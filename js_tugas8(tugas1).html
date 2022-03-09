@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 1</title>
+        <script src="jquery.js"></script>
+        <script>
+            $("document").ready(function () {
+                $("div.sapi").click(function () {
+                    $(this).css({
+                        background: "url('poto/sapi.jpg')"
+                    });
+                    $("<audio></audio>").attr({ 
+	            	'src':'suara/sapi.mp3', 
+		            'volume':0.4,
+	            	'autoplay':'autoplay'
+                	}).appendTo("body");
+                });
+                $("div.kambing").click(function () {
+                    $(this).css({
+                        background: "url('poto/kambing.jpg')"
+                    });
+                    $("<audio></audio>").attr({ 
+	            	'src':'suara/kambing.mp3', 
+		            'volume':0.4,
+	            	'autoplay':'autoplay'
+                	}).appendTo("body");
+                });
+                $("div.kucing").click(function () {
+                    $(this).css({
+                        background: "url('poto/kcuing.jpg')"
+                    });
+                    $("<audio></audio>").attr({ 
+	            	'src':'suara/kucing.mp3', 
+		            'volume':0.4,
+	            	'autoplay':'autoplay'
+                	}).appendTo("body");
+                });
+                $("div.burung").click(function () {
+                    $(this).css({
+                        background: "url('poto/burung.jpg')"
+                    });
+                    $("<audio></audio>").attr({ 
+	            	'src':'suara/burung.mp3', 
+		            'volume':0.4,
+	            	'autoplay':'autoplay'
+                	}).appendTo("body");
+                });
+                $("div.bebek").click(function () {
+                    $(this).css({
+                        background: "url('poto/bebeck.jpg')"
+                    });
+                    $("<audio></audio>").attr({ 
+	            	'src':'suara/bebeck.mp3', 
+		            'volume':0.4,
+	            	'autoplay':'autoplay'
+                	}).appendTo("body");
+                });
+            });
+        </script>
+        <style type="text/css">
+       /*     div {
+                background: greenyellow;
+                width: 300px;
+                height: 300px;
+                float: left;
+                margin: 10px;
+                cursor: pointer;
+            }*/
+            #kotak {
+             background: linear-gradient(to right, #c2e59c, #64b3f4);
+                 width: 200px;
+                 height: 200px;
+                cursor: pointer;
+                    }
+            #box {
+                display:inline-block;
+                 width: 200px;
+                 justify-content: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center><p><h2>SUARA HEWAN DAN GAMBAR</h2></p></center>
+        <div id="box">INI GAMBAR & SUARA SAPI<div id="kotak" class="sapi"></div></div>
+        <div id="box">INI GAMBAR & SUARA KAMBING<div id="kotak" class="kambing"></div></div>
+        <div id="box">INI GAMBAR & SUARA KUCING<div id="kotak" class="kucing"></div></div>
+        <div id="box">INI GAMBAR & SUARA BURUNG<div id="kotak" class="burung"></div></div>
+        <div id="box">INI GAMBAR & SUARA BEBEK <div id="kotak" class="bebek"></div></div>
+        
+    </body>
+</html>
